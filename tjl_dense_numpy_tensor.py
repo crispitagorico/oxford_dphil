@@ -7,7 +7,7 @@ import doctest
 import bisect
 import math
 import numpy as np
-from tjl_timer import timeit
+#from tjl_timer import timeit
 
 try:
 	# Custom memoization
