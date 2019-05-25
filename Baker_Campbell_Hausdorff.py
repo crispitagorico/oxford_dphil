@@ -38,7 +38,7 @@ l1 = t2l(tensor_log(stream2sigtensor(brownian(20, width), depth), depth))
 l2t(l1, width, depth)
 """
 
-command_hall_set = 'hall_set, degrees, degree_boundaries, reverse_map, width = hall_basis(width, depth)'
+command_hall_set = 'hall_set, degrees, degree_boundaries, reverse_map, width = h.;all_basis(width, depth)'
 command_l2t='l2t(l1, width, depth)'
 command_cbh='cbh(l1, l1, width, depth)'
 
