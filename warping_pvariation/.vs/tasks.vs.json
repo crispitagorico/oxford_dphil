@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-warped-p-variation",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-data",
+      "appliesTo": "data/",
+      "type": "launch"
+    }
+  ]
+}
